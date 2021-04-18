@@ -15,12 +15,6 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockBreakEvent;
 
-/**
- * all rights reserved @ Antonio Noack (Germany/Jena)
- * use it free until 100 users/month
- * else pay per paysavecard (antonio-noack@gmx.de) (0.10€ or 0.14 USDollars)/user monthly!
- * */
-
 public class TreeListener extends Thread implements Listener {
 	
 	public static int max = 200;

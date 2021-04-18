@@ -150,7 +150,8 @@ class MathHelper {
 	}
 	
 	public static float sin(float x){
-		return sin[(int)(abs(x)*10430.37835f) & 0xffff];
+		float v = sin[(int)(abs(x)*10430.37835f) & 0xffff];
+		return x < 0 ? -v : +v;
 	}
 	
 	public static float cos(float x){
